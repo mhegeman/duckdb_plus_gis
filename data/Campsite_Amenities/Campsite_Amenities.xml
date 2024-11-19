@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20210923</pubdate>
+                <title>NYSDEC Campground Infrastructure</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Location and Inventory of Campground Infrastructure.</abstract>
+            <purpose>Location and Inventory of Campground Infrastructure.
+Updated daily.</purpose>
+        </descript>
+        <status>
+            <progress>In work</progress>
+            <update>Daily</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-75.552064</westbc>
+                <eastbc>-73.402496</eastbc>
+                <northbc>44.583109</northbc>
+                <southbc>41.532179</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>NYSDEC Operations</themekey>
+                <themekey>Recreation</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>1. The NYS DEC asks to be credited in derived products. 2. Data is not for distribution to third parties. 3. Any documentation provided is an integral part of the data set. Failure to use the documentation in conjunction with the digital data constitutes a misuse of the data. 4. Although every effort has been made to ensure the accuracy of information, errors may be reflected in the data supplied. The user must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>New York State Department of Environmental Conservation</cntorg>
+                    <cntper>Operations, Bureau of Recreation, Planning Section</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>625 Broadway</address>
+                    <city>Albany </city>
+                    <state>NY</state>
+                    <postal>12233</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>518-457-2500</cntvoice>
+                <cntemail>campinfo@dec.ny.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred/>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.7.1.11595</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>GISCREATOR.dop_campground_infra</enttypl>
+                <enttypd>OPSREC.Campground_Infrastructure</enttypd>
+                <enttypds>OPSREC.Campground_Infrastructure</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FACILITY</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Facility Name, Text.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ASSET</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Text defined by user.</udom>
+                                    
+                </attrdomv>
+                <begdatea>20210923</begdatea>
+            </attr>
+            <attr>
+                <attrlabl>DESCRIPTION</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Text defined by user.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PHOTO_LINK</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Link to photo file.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ASSET_SUBTYPE</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Bridge, Building, Control Structure, EEC, Electric Distribution System, Field Point, Historic Site/Monument, Parking, Recreation Structure, Scoping, Stormwater System, Wastewater System, Water Distribution System, Water System.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PUBLIC_USE</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <edom>
+                                                
+                        <edomv>Yes</edomv>
+                                                
+                        <edomvd>Yes</edomvd>
+                                                
+                        <edomvds>NYSDEC</edomvds>
+                                            
+                    </edom>
+                                        
+                    <edom>
+                                                
+                        <edomv>No</edomv>
+                                                
+                        <edomvd>No</edomvd>
+                                                
+                        <edomvds>NYSDEC</edomvds>
+                                            
+                    </edom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GLOBALID</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>INFRA_UID</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Unique values calculated by Rec_Editor.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FUEL_SOURCE</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Propane, Fuel Oil, Electric, Solar, N/A.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CONDITION</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Excellent, Good, Fair, Poor, Unused.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MATERIAL</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Metal, Stone, Plastic, Wood, Cement, Pavement, Gravel, Other, N/A.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_USER</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Text.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_DATE</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Date, MM/DD/YYYY.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LAST_EDITED_USER</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Text.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LAST_EDITED_DATE</attrlabl>
+                <attrdef>OPSREC.Campground_Infrastructure</attrdef>
+                <attrdefs>OPSREC.Campground_Infrastructure</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Date, MM/DD/YYYY.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OFFICE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>BUILDING_NUMBER</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>NUMBER_FILL</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ACC_STATUS</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ACC_DATE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ACC_TYPE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ACC_BUILT</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ACC_NOTE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>PHOTO_JSON</attrlabl>
+                <attrdef>Photo JSON field</attrdef>
+                <attrdefs>NYSDEC</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>N/A</udom>
+                                    
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20240613</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>New York State Department of Environmental Conservation</cntorg>
+                    <cntper>Operations, Bureau of Recreation, Planning Section</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>625 Broadway</address>
+                    <city>Albany </city>
+                    <state>NY</state>
+                    <postal>12233</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>518-457-2500</cntvoice>
+                <cntemail>campinfo@dec.ny.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
