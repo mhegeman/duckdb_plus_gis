@@ -52,7 +52,7 @@ INNER JOIN (
 county_df <- dbGetQuery(con, county_query)
 # Convert back to sf object for mapping
 county_sf <- st_as_sf(county_df, wkt = "geometry", crs = 26918)
-# The data is originally in NAD83/UTM Zone 18N, so we need to transform it to WGS84
+# The data is originally in NAD83/UTM Zone 18N, transforming it to WGS84
 county_sf_WGS84 <- county_sf |>
   st_transform(4326)
 
@@ -77,7 +77,7 @@ GROUP BY FACILITY
 campsite_df <- dbGetQuery(con, campsite_query)
 # Convert back to sf object for mapping
 campsite_sf <- st_as_sf(campsite_df, wkt = "geometry", crs = 26918)
-# The data is originally in NAD83/UTM Zone 18N, so we need to transform it to WGS84
+# The data is originally in NAD83/UTM Zone 18N, transforming it to WGS84
 campsite_sf_WGS84 <- campsite_sf |>
   st_transform(4326)
 
@@ -107,6 +107,8 @@ ggplot() +
     plot.title = element_text(hjust = 0.5, face = "bold", size = 14),
     plot.caption = element_text(hjust = 0, size = 8, color = "grey50")
   )
+
+
 
 ggsave("ny_counties_campgrounds.png", width = 8, height = 6, dpi = 300)
 
